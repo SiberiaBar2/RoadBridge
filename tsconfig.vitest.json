@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.app.json",
+  "exclude": [],
+  "compilerOptions": {
+    "jsx": "preserve", // 这里这样写才能支持jsx 在tsconfig.json里写没用
+    "composite": true,
+    "lib": [],
+    "types": ["node", "jsdom"]
+  }
+}

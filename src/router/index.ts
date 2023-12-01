@@ -3,6 +3,7 @@ import Wel from '@/page/wel/index.vue'
 import ProjectList from '@/page/project-list/index.vue'
 import EvaluateList from '@/page/evaluate-list'
 
+
 export const routes = [
   {
     path: '/beckon',

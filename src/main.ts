@@ -13,6 +13,7 @@ import router from './router'
 
 const app = createApp(App)
 
+
 app.use(createPinia())
 // app.use(Plain) // 使用ui组件
 app.use(ElementPlus)

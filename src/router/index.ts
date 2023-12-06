@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Wel from '@/page/wel/index.vue'
 import ProjectList from '@/page/project-list/index.vue'
-import EvaluateList from '@/page/evaluate-list'
+import EvaluateList from '@/page/evaluate-list/index.vue'
 
 
 export const routes = [

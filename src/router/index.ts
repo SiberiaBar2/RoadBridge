@@ -11,20 +11,11 @@ export const routes = [
     children: [
       {
         path: '/evaluatelist',
-        name: '公告列表',
+        name: '基本信息',
         component: Wel,
 
         meta: {
-          title: '公告列表'
-        }
-      },
-      {
-        path: '/projectList',
-        name: '项目列表',
-        component: ProjectList,
-
-        meta: {
-          title: '项目列表'
+          title: '基本信息'
         }
       }
     ]
@@ -40,6 +31,15 @@ export const routes = [
 
         meta: {
           title: '评委端列表'
+        }
+      },
+      {
+        path: '/projectList',
+        name: '项目列表',
+        component: ProjectList,
+
+        meta: {
+          title: '项目列表'
         }
       }
     ]

@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Wel from '@/page/wel/index.vue'
 import ProjectList from '@/page/project-list/index.vue'
 import EvaluateList from '@/page/evaluate-list/index.vue'
+import EvaluateListOne from '@/page/evaluate-list/index'
 
 
 export const routes = [
@@ -40,6 +41,15 @@ export const routes = [
 
         meta: {
           title: '项目列表'
+        }
+      },
+      {
+        path: '/pdf',
+        name: 'pdf',
+        component: EvaluateListOne,
+
+        meta: {
+          title: 'pdf'
         }
       }
     ]
